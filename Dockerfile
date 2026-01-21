@@ -1,4 +1,4 @@
-FROM node:20-alpine
+FROM public.ecr.aws/docker/library/node:alpine
 WORKDIR /app
 
 RUN npm install -g serve
