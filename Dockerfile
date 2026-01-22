@@ -7,4 +7,4 @@ COPY build ./build
 COPY node_modules ./node_modules
 
 EXPOSE 3000
-CMD ["npm", "start"]
+CMD ["npx", "serve", "-s", "build", "-l", "3000"]
